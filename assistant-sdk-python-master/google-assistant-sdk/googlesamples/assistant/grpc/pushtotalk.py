@@ -69,7 +69,7 @@ robot.left_arm.arm_yaw.goal_position = 0
 robot.left_arm.elbow_pitch.goal_position = 0
 robot.left_arm.hand.forearm_yaw.goal_position = 0
 
-speech_config = SpeechConfig(subscription="4ff843f6f0c04c9a9fd6423f128accfb", region="westeurope")
+speech_config = SpeechConfig(subscription="subkey", region="westeurope")
 audio_config = AudioOutputConfig(use_default_speaker=True)
 synthesizer = SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
 
